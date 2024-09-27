@@ -40,7 +40,7 @@ public class T02 {
                 }
             }
         }
-        System.out.println(iSBN + "|" + jUDUL + "|" + pENULIS + "|" + tAHUNTERBIT + "|" + pENERBIT + "|" + fORMATBUKU + "|" + toFixed(hARGAPEMBELIAN,2) + "|" + toFixed(mINIMUMMARGIN,2) + "|" + sTOK + "|" + toFixed(rATING,2) + "|" + kUALITAS);
+        System.out.println(iSBN + "|" + jUDUL + "|" + pENULIS + "|" + tAHUNTERBIT + "|" + pENERBIT + "|" + fORMATBUKU + "|" + toFixed(hARGAPEMBELIAN,2) + "|" + toFixed(mINIMUMMARGIN,2) + "|" + sTOK + "|" + toFixed(rATING,1) + "|" + kUALITAS);
     }
     
     private static String toFixed(double value, int digits) {

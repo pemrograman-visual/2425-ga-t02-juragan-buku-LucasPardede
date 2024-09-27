@@ -4,9 +4,9 @@
         <attribute name="name" value="TO2"/>
         <attribute name="authors" value="ASUS"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-27 11:23:50 AM"/>
+        <attribute name="saved" value="2024-09-27 11:29:46 AM"/>
         <attribute name="created" value="QVNVUztMQVBUT1AtUDA4OUFRVkM7MjAyNC0wOS0yNzsxMDoxMToxOCBBTTsyNjMy"/>
-        <attribute name="edited" value="QVNVUztMQVBUT1AtUDA4OUFRVkM7MjAyNC0wOS0yNzsxMToyMzo1MCBBTTs1OzI3NDQ="/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUDA4OUFRVkM7MjAyNC0wOS0yNzsxMToyOTo0NiBBTTs2OzI3NTY="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -58,7 +58,7 @@
                     </if>
                 </else>
             </if>
-            <output expression="ISBN &amp;&quot;|&quot;&amp; JUDUL &amp;&quot;|&quot;&amp; PENULIS &amp;&quot;|&quot;&amp; TAHUNTERBIT &amp;&quot;|&quot;&amp; PENERBIT &amp;&quot;|&quot;&amp; FORMATBUKU &amp;&quot;|&quot;&amp; Tofixed(HARGAPEMBELIAN,2) &amp;&quot;|&quot;&amp; Tofixed(MINIMUMMARGIN,2) &amp;&quot;|&quot;&amp; STOK &amp;&quot;|&quot;&amp; Tofixed(RATING,2) &amp;&quot;|&quot;&amp; KUALITAS" newline="True"/>
+            <output expression="ISBN &amp;&quot;|&quot;&amp; JUDUL &amp;&quot;|&quot;&amp; PENULIS &amp;&quot;|&quot;&amp; TAHUNTERBIT &amp;&quot;|&quot;&amp; PENERBIT &amp;&quot;|&quot;&amp; FORMATBUKU &amp;&quot;|&quot;&amp; Tofixed(HARGAPEMBELIAN,2) &amp;&quot;|&quot;&amp; Tofixed(MINIMUMMARGIN,2) &amp;&quot;|&quot;&amp; STOK &amp;&quot;|&quot;&amp; Tofixed(RATING,1) &amp;&quot;|&quot;&amp; KUALITAS" newline="True"/>
         </body>
     </function>
 </flowgorithm>
