@@ -1,6 +1,5 @@
 // 12S24015 - Lucas Pardede
 // 12S24022 - Ingrate Joy Sihombing
-
 import java.util.*;
 import java.lang.Math;
 
@@ -11,6 +10,7 @@ public class T02 {
         String iSBN, jUDUL, pENULIS, pENERBIT, fORMATBUKU, kUALITAS;
         double tAHUNTERBIT, hARGAPEMBELIAN, mINIMUMMARGIN, sTOK, rATING;
 
+        kUALITAS = "";
         iSBN = input.nextLine();
         jUDUL = input.nextLine();
         pENULIS = input.nextLine();
